@@ -1,4 +1,4 @@
-# Bot Emploi Discord
+# Job BOT Discord
 
 Bot Discord pour faciliter la recherche d'emploi et d'alternance.
 
