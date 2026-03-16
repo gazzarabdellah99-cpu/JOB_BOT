@@ -14,10 +14,6 @@ Format de retour attendu par bot.py :
 ]
 """
 
-
-def scrape_offers(job_type: str, location: str) -> list:
- 
-
 from urllib.parse import quote
 import time
 
@@ -221,6 +217,3 @@ def scrape_offers(job_type: str, location: str) -> list:
 
     return offers
         
-    """
-    offers = []
-    return offers
