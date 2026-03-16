@@ -12,7 +12,7 @@ Format de retour attendu par bot.py :
     },
     ...
 ]
-"""
+""" 
 
 
 def scrape_offers(job_type: str, location: str) -> list:
