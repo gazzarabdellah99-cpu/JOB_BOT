@@ -56,8 +56,8 @@ async def search_job(ctx, *, args: str = ""):
     await ctx.send(f"Recherche d'offres : {job_type} a {location}...")
     all_offers = []
     for scraper_path, label in [
-        ("scraping.scraper_site1", "Scraper 1"),
-        ("scraping.scraper_site2", "Scraper 2"),
+        ("scraper.scraper_site1", "Scraper 1"),
+        ("scraper.scraper_site2", "Scraper 2"),
     ]:
         try:
             import importlib
